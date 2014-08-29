@@ -1,0 +1,113 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7959ed86eaed6bddd3b49340d3e899f9",
+    "packages": [
+        {
+            "name": "sevenpercent/http",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sevenpercent/HTTP.git",
+                "reference": "b11c4f827129135179bc463537e1913073658dc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sevenpercent/HTTP/zipball/b11c4f827129135179bc463537e1913073658dc7",
+                "reference": "b11c4f827129135179bc463537e1913073658dc7",
+                "shasum": ""
+            },
+            "require": {
+                "sevenpercent/url": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenPercent\\HTTP\\": "src/"
+                }
+            },
+            "description": "HTTP request and response classes",
+            "support": {
+                "source": "https://github.com/sevenpercent/HTTP/tree/1.0.0",
+                "issues": "https://github.com/sevenpercent/HTTP/issues"
+            },
+            "time": "2014-08-26 19:24:29"
+        },
+        {
+            "name": "sevenpercent/routerinterface",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sevenpercent/RouterInterface.git",
+                "reference": "b3817198488787fcecc4911078443505b990a4e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sevenpercent/RouterInterface/zipball/b3817198488787fcecc4911078443505b990a4e3",
+                "reference": "b3817198488787fcecc4911078443505b990a4e3",
+                "shasum": ""
+            },
+            "require": {
+                "sevenpercent/http": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenPercent\\": "src/"
+                }
+            },
+            "description": "Standard interface for HTTP request routers",
+            "support": {
+                "source": "https://github.com/sevenpercent/RouterInterface/tree/1.0.0"
+            },
+            "time": "2014-08-26 19:28:12"
+        },
+        {
+            "name": "sevenpercent/url",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sevenpercent/URL.git",
+                "reference": "c195bfbc9fffef1a305580277eaba79eb8329d0f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sevenpercent/URL/zipball/c195bfbc9fffef1a305580277eaba79eb8329d0f",
+                "reference": "c195bfbc9fffef1a305580277eaba79eb8329d0f",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SevenPercent\\": "src/"
+                }
+            },
+            "description": "URL wrapper class",
+            "support": {
+                "source": "https://github.com/sevenpercent/URL/tree/1.0.0",
+                "issues": "https://github.com/sevenpercent/URL/issues"
+            },
+            "time": "2014-08-26 18:59:21"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

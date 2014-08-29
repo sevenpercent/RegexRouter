@@ -1,0 +1,18 @@
+{
+	"name": "sevenpercent/regexrouter",
+	"description": "Regular expression request router class",
+	"autoload": {
+		"psr-4": {
+			"SevenPercent\\": "src/"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.7pc.so/"
+		}
+	],
+	"require": {
+		"sevenpercent/routerinterface": "1.*"
+	}
+}
